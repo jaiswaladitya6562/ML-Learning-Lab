@@ -65,7 +65,7 @@ st.divider()
 
 st.header("Dataset - For House Price Prediction")
 
-df = pd.read_csv("datasets/student_scores.csv")
+df = pd.read_csv("datasets/Student_Scores.csv")
 
 st.dataframe(df, use_container_width=True)
 
